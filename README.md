@@ -1,6 +1,6 @@
 # Frontend Mentor - Meet Landing Page Solution
 
-This is a solution to the [Meet landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/meet-landing-page-819y9be7d). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Meet landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/meet-landing-page-819y9be7d). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./desktop.png) 
-![Mobile](./mobile.png) 
+![Desktop](./desktop.png)
+![Mobile](./mobile.png)
 
 ### Links
 
-- Solution URL: [Add your GitHub URL here](https://your-github-link.com)
-- Live Site URL: [Add your live site URL here](https://your-live-site.com)
+- Solution URL: [https://github.com/BaskoroR725/08-meet-landing-page.git](https://github.com/BaskoroR725/08-meet-landing-page.git)
+- Live Site URL: [https://baskoror725.github.io/08-meet-landing-page/](https://baskoror725.github.io/08-meet-landing-page/)
 
 ## My process
 
@@ -51,6 +51,7 @@ During this project, I focused on "Engineering over Speed." I learned how to str
 
 **Key takeaway: Fluid Typography**
 I implemented `clamp()` to ensure headings look great on both mobile and desktop without excessive media queries:
+
 ```css
 .section-title {
   font-size: clamp(2rem, 4vw, 2.5rem);
