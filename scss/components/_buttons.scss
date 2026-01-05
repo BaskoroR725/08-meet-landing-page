@@ -1,0 +1,27 @@
+.btn {
+  border: none;
+  border-radius: 100vmax;
+  padding: 1rem 2.5rem;
+  font-weight: var(--fw-bold);
+  color: var(--clr-white);
+  transition: background-color 0.3s ease;
+
+  span {
+    color: var(--clr-cyan-300);
+    margin-inline-start: 0.5rem;
+  }
+
+  &--primary {
+    background-color: var(--clr-cyan-600);
+    &:hover {
+      background-color: #71c0d4;
+    }
+  }
+
+  &--secondary{
+    background-color: var(--clr-purple-600);
+    &:hover{
+      background-color: #B18BDD;
+    }
+  }
+}

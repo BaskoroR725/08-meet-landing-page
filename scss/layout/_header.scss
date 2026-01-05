@@ -1,0 +1,11 @@
+@use '../utils/variables' as v;
+
+.header {
+  padding-block: 3rem; 
+  display: flex;
+  justify-content: center; 
+
+  &__logo {
+    margin-inline: auto; // Memastikan logo benar-benar di tengah pada mobile
+  }
+}

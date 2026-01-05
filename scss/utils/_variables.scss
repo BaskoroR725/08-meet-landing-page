@@ -1,6 +1,22 @@
 :root {
-    --clr-primary: hsl(0, 0%, 0%); 
-    --clr-white: hsl(0, 0%, 100%);
-    
-    --fs-body: 0.9375rem; 
+  // Colors (Primary)
+  --clr-cyan-600: hsl(192, 37%, 48%);
+  --clr-cyan-300: hsl(192, 90%, 77%);
+  --clr-purple-600: hsl(268, 34%, 53%);
+  --clr-purple-300: hsl(268, 100%, 86%);
+  
+  // Colors (Neutral)
+  --clr-neutral-900: hsl(192, 95%, 8%);
+  --clr-neutral-400: hsl(192, 10%, 45%);
+  --clr-neutral-100: hsl(0, 0%, 98%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  // Typography
+  // Base 16px. 1.125rem = 18px
+  --fs-body: 1.125rem; 
+  --fs-heading-xl: clamp(2.5rem, 5vw + 1rem, 4rem); // Heading yang fleksibel
+  
+  // Font Weights
+  --fw-normal: 500;
+  --fw-bold: 900;
 }

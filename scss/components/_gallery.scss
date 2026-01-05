@@ -1,0 +1,31 @@
+@use '../utils/variables' as v;
+
+.gallery{
+  padding-block: 4rem;
+
+  &__grid{
+    display: grid;
+    //mobile
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-block: 4rem;
+    
+    @media (min-width: 768px){
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    img{
+      border-radius: 0.5rem;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+  }
+
+  &__content{
+    text-align: center;
+    max-width: 540px;
+    margin-inline: auto;
+  }
+}
+
+//Typ
