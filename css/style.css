@@ -159,7 +159,7 @@ button {
 }
 @media (min-width: 768px) {
   .footer__content {
-    background-image: linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url("../../assets/desktop/image-footer.jpg");
+    background-image: linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url("../assets/desktop/image-footer.jpg");
   }
 }
 .footer__title {
